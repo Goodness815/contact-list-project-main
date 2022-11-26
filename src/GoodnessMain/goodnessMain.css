@@ -1,0 +1,151 @@
+.goodnessmain-container {
+    background-color: black;
+    min-height: 100vh;
+}
+
+.goodness-main-upper {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.goodness-main-upper h2 {
+    color: white;
+}
+
+.goodness-main-upper p {
+    color: white;
+}
+
+.goodness-toolbox-div {
+    width: 100%;
+    height: 7vh;
+    padding: 0px 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.goodness-toolbox-div input {
+    width: 85%;
+    background-color: black;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 5px 8px;
+    height: 100%;
+}
+
+.goodness-toolbox-div span {
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goodness-toolbox-items {
+    margin: 0px 10px;
+}
+
+.goodness-contact-list-wrapper {
+    height: 63vh;
+    background-color: black;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: flex-start;
+}
+
+.goodness-contact-list-item {
+    background: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 8px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.goodness-contact-list-item:first-of-type {
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+
+.goodness-contact-list-item:last-of-type {
+    border-bottom: none !important;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.goodness-form-modal-main {
+    background: rgb(44, 44, 44) !important;
+    color: white;
+}
+
+.goodness-form-modal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.goodness-form-modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goodness-form-modal-container form {
+    width: 80%;
+}
+
+.goodness-form-modal-container h4 {
+    color: white;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.goodness-form-modal-item label {
+    color: white;
+    font-size: 14px;
+}
+
+.goodness-form-modal-item input {
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    border-color: white;
+    color: white;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 0px 8px;
+}
+
+.goodness-form-modal-item button {
+    width: 100%;
+    margin-top: 15px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.dropdown-toggle {
+    background: rgb(44, 44, 44) !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+    /* padding: 0px !important; */
+
+}
